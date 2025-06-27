@@ -1,0 +1,10 @@
+# Ignore Eclipse & Java build files
+*.class
+*.log
+*.iml
+bin/
+target/
+.settings/
+.project
+.classpath
+.metadata/
