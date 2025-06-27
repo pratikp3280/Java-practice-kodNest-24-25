@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Sender- (OTP Based Authentication)</title>
+    <style>
+        /* Overall background color */
+        body {
+            background: linear-gradient(to right, #eef2f3, #8e9eab);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Card container */
+        .form-card {
+            background-color: rgb(64, 128, 128);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 450px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input[type="email"],
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-card">
+        <h2>Generete Your OTP Here </h2>
+        <form action="send" method="post">
+		    <label for="receiver">To:</label>
+		    <input type="email" name="receiver" id="receiver" required placeholder = "Enter Your Email" >
+		
+		  <!--    <label for="subject">Subject:</label>
+		    <input type="text" name="subject" id="subject" required>
+		
+		    <label for="body">Body:</label>
+		    <textarea name="body" id="body" rows="5" required></textarea>-->
+		
+		    <button type="submit" >Generate OTP </button>
+		</form>
+
+    </div>
+
+</body>
+</html>

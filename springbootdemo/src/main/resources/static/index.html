@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Product Manager</title>
+    <!-- ✅ Bootstrap CDN : This line pulls in Bootstrap directly from the internet (no installation needed).-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">🛍️ Product Management Dashboard</h1>
+
+        <!-- 🔹 Add Product -->
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">📦 Add Product</div>
+            <div class="card-body">
+                <form id="addForm" class="row g-3">
+                    <div class="col-md-2">
+                        <input type="number" id="addId" class="form-control" placeholder="ID" required>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" id="addName" class="form-control" placeholder="Product Name" required>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" id="addPrice" class="form-control" placeholder="Price ₹" required>
+                    </div>
+                    <div class="col-md-2 d-grid">
+                        <button type="submit" class="btn btn-success">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- 🔄 Update Product -->
+        <div class="card mb-4">
+            <div class="card-header bg-warning text-white">🔄 Update Product</div>
+            <div class="card-body">
+                <form id="updateForm" class="row g-3">
+                    <div class="col-md-2">
+                        <input type="number" id="updateId" class="form-control" placeholder="ID" required>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="text" id="updateName" class="form-control" placeholder="New Name" required>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" id="updatePrice" class="form-control" placeholder="New Price ₹" required>
+                    </div>
+                    <div class="col-md-2 d-grid">
+                        <button type="submit" class="btn btn-warning text-white">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- ❌ Delete Product -->
+        <div class="card mb-4">
+            <div class="card-header bg-danger text-white">❌ Delete Product</div>
+            <div class="card-body">
+                <form id="deleteForm" class="row g-3">
+                    <div class="col-md-10">
+                        <input type="number" id="deleteId" class="form-control" placeholder="Enter Product ID to delete" required>
+                    </div>
+                    <div class="col-md-2 d-grid">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- 📄 View All Products -->
+        <div class="card">
+            <div class="card-header bg-info text-white">📄 Product List</div>
+            <div class="card-body">
+                <button class="btn btn-info mb-3" onclick="getAllProducts()">🔄 Refresh Products</button>
+                <div class="table-responsive">
+    <table class="table table-bordered table-striped align-middle text-center">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">🆔 ID</th>
+                <th scope="col">🏷️ Name</th>
+                <th scope="col">💰 Price</th>
+            </tr>
+        </thead>
+        <tbody id="productTableBody">
+            <!-- Products will be loaded here -->
+        </tbody>
+    </table>
+</div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+ <script src="myscripts.js"></script>
+</body>
+</html>

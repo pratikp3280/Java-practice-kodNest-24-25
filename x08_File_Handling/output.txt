@@ -1,0 +1,2 @@
+Hello from Java!
+This file was written and now will be read.
