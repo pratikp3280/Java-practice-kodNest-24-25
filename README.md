@@ -64,7 +64,7 @@ Hi, I'm **Pratik Patil**, a passionate Full Stack Java Developer Trainee who bel
 > This repo is a public proof of my coding practice and dedication. Feel free to explore, fork, or connect.
 
 ### 🔗 Connect with Me:
-- GitHub: [@Pratik_P_Patil](https://github.com/YOUR_USERNAME)
+- GitHub: [@pratikp3280](https://github.com/YOUR_USERNAME)
 - LinkedIn: [linkedin.com/in/Pratik_P_Patil](https://www.linkedin.com/in/pratik-p-patil-1485aa1bb/)
 
 ---
