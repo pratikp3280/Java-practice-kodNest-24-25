@@ -38,7 +38,8 @@ This repository contains over **60+ Java projects and programs** developed durin
 ## 📸 Visuals & Screenshots
 
 ### 📌 Project Explorer (Eclipse View)
-![Eclipse Project View](Readme_images\eclipse_project_explorer.png)
+![Eclipse View](Readme_images/eclipse_project_explorer.png)
+
 
 ---
 
