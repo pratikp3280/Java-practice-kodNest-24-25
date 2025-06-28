@@ -48,7 +48,7 @@ This repository contains over **60+ Java projects and programs** developed durin
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/java-practice-kodnest.git
+   git clone https://github.com/pratikp3280/Java-practice-kodNest-24-25.git
    ```
 
 2. Open Eclipse → Import existing Java projects
