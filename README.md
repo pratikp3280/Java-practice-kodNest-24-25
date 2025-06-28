@@ -1,11 +1,9 @@
 # java-practice-kodnest
 
-Welcome to my GitHub repository: **java-practice-kodnest**
-
-> # This repo is a public proof of my coding practice and dedication. Feel free to explore, fork, or connect.
-
-
+> Welcome to my GitHub repository: **java-practice-kodnest**
 This repository contains over **60+ Java projects and programs** developed during my Full Stack Java Development training at Kodnest. It covers a wide range of core and advanced Java concepts — from fundamentals to backend frameworks like Spring Boot, JDBC, and Hibernate.
+
+
 
 ---
 
@@ -91,7 +89,7 @@ I am an **aspiring and result-oriented developer** with hands-on experience in b
 
 🚀 I am passionate about writing **efficient**, **clean**, and **maintainable code**, and constantly aim to grow in **dynamic development environments** where learning never stops.
 
-> This repo is a public proof of my coding practice and dedication. Feel free to explore, fork, or connect.
+> ### This repo is a public proof of my coding practice and dedication. Feel free to explore, fork, or connect.
 
 ### 🔗 Connect with Me:
 - GitHub: [@pratikp3280](https://github.com/YOUR_USERNAME)
