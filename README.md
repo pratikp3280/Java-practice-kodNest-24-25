@@ -64,7 +64,32 @@ This repository contains over **60+ Java projects and programs** developed durin
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Pratik Patil**, a passionate Full Stack Java Developer Trainee who believes in learning by doing.
+Hi, I'm **Pratik Patil**, a passionate **Full Stack Java Developer Trainee** who believes in **learning by doing**.
+
+I am an **aspiring and result-oriented developer** with hands-on experience in building **scalable web applications** using:
+
+- **Java**
+- **Spring Boot**
+- **MySQL**
+- **React.js**
+
+🎓 I have been trained through a **comprehensive Full Stack Java Development program**, and I'm proficient in:
+
+- **REST APIs**
+- **JPA (Java Persistence API)**
+- **Git** for version control
+- **Agile methodologies** for collaborative development
+
+🧠 I have a **strong foundation in Object-Oriented Programming (OOP)**, excellent **problem-solving** skills, and solid knowledge of **front-end development** technologies like:
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+🚀 I am passionate about writing **efficient**, **clean**, and **maintainable code**, and constantly aim to grow in **dynamic development environments** where learning never stops.
+
+> "Code is like humor. When you have to explain it, it’s bad." – Cory House
+
 
 > This repo is a public proof of my coding practice and dedication. Feel free to explore, fork, or connect.
 
